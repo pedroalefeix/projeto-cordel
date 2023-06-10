@@ -1,0 +1,116 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@700&display=swap');
+
+html, body {
+    height: 100%;
+    margin: 0px;
+    display: block;
+}
+
+main {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+div {
+    padding-left: 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+div#cabecalho {
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin: 0px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+div#cabecalho > h1 {
+    font-family: 'Kalam', cursive;
+    font-variant: small-caps;
+    font-size: 7vw;
+    margin: 0px;
+}
+
+div#cabecalho > p {
+    font: bold 1em Arial;
+}
+
+div#cabecalho > a {
+    text-decoration: none;
+    color: white;
+}
+
+div#cabecalho > a:hover {
+    background-color: white;
+    color: red;
+    padding: 1px;
+    border-radius: 3px;
+}
+
+div.imagem {
+    color: white;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.500);
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-top: 10vh;
+    padding-bottom: 10vh;   
+}
+
+div#imagem1 {
+    background-image: url('imagens/background001.jpg');
+}
+
+div#imagem2 {
+    background-image: url('imagens/background002.jpg');
+}
+
+p {
+    font-family: monospace;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 2.5vw;
+    line-height: 2em;
+    margin: 0px;
+}
+
+p.imagem {
+    background-color: rgba(0, 0, 0, 0.500);
+    display: inline-block;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 10px;
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.5);
+}
+
+div#cabecalho > a {
+    text-decoration: none;
+    color: white;
+}
+
+footer {
+    background-color: black;
+    color: white;
+}
+
+footer > p {
+    font: normal 1.5vw Arial;
+    text-align: center;
+    padding: 5px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    font-weight: bold;
+    background-color: white;
+    color: red;
+    padding: 1px;
+    border-radius: 3px;
+}
